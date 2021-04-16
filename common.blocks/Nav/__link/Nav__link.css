@@ -1,0 +1,6 @@
+.Nav__link {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: var(--text-color-1);
+}

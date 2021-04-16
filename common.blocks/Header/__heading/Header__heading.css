@@ -1,0 +1,5 @@
+.Header__heading {
+    font-size: 2.625rem;
+    color: var(--text-color-1);
+    margin-left: 1rem;
+}

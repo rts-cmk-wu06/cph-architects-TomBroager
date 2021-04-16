@@ -1,0 +1,9 @@
+.Hamburger-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+}

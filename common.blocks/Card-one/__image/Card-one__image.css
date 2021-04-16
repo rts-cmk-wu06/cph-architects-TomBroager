@@ -1,0 +1,6 @@
+.Card-one__image {
+    width: 7.5rem;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}

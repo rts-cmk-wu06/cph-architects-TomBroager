@@ -1,0 +1,22 @@
+@media screen and (min-width: 700px) {
+    .Nav {
+        flex: 1;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        background: none;
+        margin: 0;
+        padding-bottom: 5px;
+    }
+
+    .Nav__ul {
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .Nav__list {
+        margin: 0;
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,39 @@
+@media screen and (min-width: 700px) {
+
+    /* ========== Home page ========== */
+
+    .Content-wrapper__article-dansk-arkitektur {
+        width: 672px;
+        margin: 2rem auto;
+    }
+
+    .Content-wrapper__card-one-container {
+        width: 672px;
+        margin: 0 auto 2rem;
+    }
+    
+    /* ========== Side 2 page ========== */
+    
+    .Content-wrapper__article-kap {
+        width: 672px;
+        margin: 2rem auto;
+    }
+    
+    .Content-wrapper__card-two-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* ========== Side 3 page ========== */
+
+    .Content-wrapper__article-cnn {
+        margin: 2rem 0;
+    }
+
+    /* ========== Side 4 page ========== */
+
+    .Content-wrapper__gallery {
+        padding: 2rem 0;
+    }
+
+}

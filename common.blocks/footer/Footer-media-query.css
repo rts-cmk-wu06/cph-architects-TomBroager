@@ -1,0 +1,6 @@
+@media screen and (min-width: 700px) {
+    .Footer__wrapper {
+        width: 672px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,6 @@
+.Card-one__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}

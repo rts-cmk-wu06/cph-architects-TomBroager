@@ -1,0 +1,37 @@
+@media screen and (min-width: 700px) {
+    .Article-cnn__heading {
+        width: 672px;
+        margin: 0 auto;
+    }
+
+    .Article-cnn__sub-article-one {
+        width: 672px;
+        margin: 0 auto;
+    }
+
+    .Article-cnn__image-one {
+        float: right;
+        width: 21rem;
+        height: 14.875rem;
+        object-fit: cover;
+        object-position: center;
+        margin-left: 1rem;
+    }
+
+    .Article__text-one {
+        margin: 0;
+        text-align: justify;
+    }
+
+    .Article-cnn__image-two {
+        height: 41.688rem;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .Article__text-two {
+        width: 672px;
+        margin: 2rem auto 0;
+        text-align: justify;
+    }
+}

@@ -1,0 +1,7 @@
+.Header__wrapper {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.88rem 0 0;
+}

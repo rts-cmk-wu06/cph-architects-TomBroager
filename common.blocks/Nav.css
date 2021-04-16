@@ -1,0 +1,6 @@
+.Nav {
+    flex-basis: 100%;
+    text-align: center;
+    background-color: var(--footer-color);
+    margin-top: 9px;
+}

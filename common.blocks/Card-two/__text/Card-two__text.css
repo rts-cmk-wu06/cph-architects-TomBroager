@@ -1,0 +1,9 @@
+.Card-two__text {
+    padding: 1rem 1rem 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    border-bottom: 1rem solid transparent;
+}

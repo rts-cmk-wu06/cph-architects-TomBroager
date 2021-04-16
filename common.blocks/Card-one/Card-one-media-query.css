@@ -1,0 +1,17 @@
+@media screen and (min-width: 700px) {
+    .Card-one-container {
+        gap: 1.5rem;
+    }
+    
+    .Card-one {
+        height: 256px;
+    }
+
+    .Card-one__image {
+        width: 184px;
+    }
+
+    .Card-one__text {
+        -webkit-line-clamp: 7;
+    }
+}

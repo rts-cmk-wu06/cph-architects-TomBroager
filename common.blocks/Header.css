@@ -1,0 +1,5 @@
+.Header {
+    width: 100%;
+    min-height: 4.375rem;
+    background-color: var(--navigation-color);
+}

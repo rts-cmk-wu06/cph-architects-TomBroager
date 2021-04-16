@@ -1,0 +1,4 @@
+.Social-media__icon_color-theme {
+    background-color: var(--theme-color);
+    color: var(--text-color-1);
+}

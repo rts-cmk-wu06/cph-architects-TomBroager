@@ -1,0 +1,22 @@
+@media screen and (min-width: 700px) {
+    .Header {
+        display: flex;
+        height: 6.25rem;
+        padding: 0;
+    }
+
+    .Header__wrapper {
+        align-self: center;
+        width: 672px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .Header__heading {
+        margin: 0;
+    }
+
+    .Header__hamburger-icon {
+        margin: 0;
+    }
+}

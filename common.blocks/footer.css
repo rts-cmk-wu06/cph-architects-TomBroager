@@ -1,0 +1,9 @@
+.Footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 14.813rem;
+    background-color: var(--footer-color);
+    padding: 3rem 1rem 1rem;
+}
