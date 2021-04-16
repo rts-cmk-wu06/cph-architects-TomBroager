@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="dk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="stylesheet/style.css" />
+
+    <link rel="stylesheet" href="common.blocks/Header.css">
+    <link rel="stylesheet" href="common.blocks/Header/__wrapper/Header__wrapper.css">
+    <link rel="stylesheet" href="common.blocks/Header/__heading/Header__heading.css">
+    <link rel="stylesheet" href="common.blocks/Header/__hamburger-icon/Header__hamburger-icon.css">
+    <link rel="stylesheet" href="common.blocks/Header/Header-media-query.css">
+
+    <link rel="stylesheet" href="common.blocks/Hamburger-icon.css">
+    <link rel="stylesheet" href="common.blocks/Hamburger-icon/_size_m/Hamburger-icon_size_m.css">
+    <link rel="stylesheet" href="common.blocks/Hamburger-icon/Hamburger-icon-media-query.css">
+
+    <link rel="stylesheet" href="common.blocks/Nav.css">
+    <link rel="stylesheet" href="common.blocks/Nav/__ul/Nav__ul.css">
+    <link rel="stylesheet" href="common.blocks/Nav/__list/Nav__list.css">
+    <link rel="stylesheet" href="common.blocks/Nav/__link/Nav__link.css">
+    <link rel="stylesheet" href="common.blocks/Nav/Nav-media-query.css">
+
+    <link rel="stylesheet" href="common.blocks/Content-wrapper/__gallery/Content-wrapper__gallery.css">
+    <link rel="stylesheet" href="common.blocks/Content-wrapper/Content-wrapper-media-query.css">
+
+    <link rel="stylesheet" href="common.blocks/Gallery.css">
+    <link rel="stylesheet" href="common.blocks/Gallery/__image/Gallery__image.css">
+    <link rel="stylesheet" href="common.blocks/Gallery/Gallery-media-query.css">
+
+    <link rel="stylesheet" href="common.blocks/Video/Video.css">
+    <link rel="stylesheet" href="common.blocks/Video/__arne-jacobsen/Video__arne-jacobsen.css">
+
+    <link rel="stylesheet" href="common.blocks/footer/mix/color.css">
+    <link rel="stylesheet" href="common.blocks/Footer.css" />
+    <link rel="stylesheet" href="common.blocks/footer/__wrapper/Footer__wrapper.css">
+    <link rel="stylesheet" href="common.blocks/footer/Footer-media-query.css">
+    <link rel="stylesheet" href="common.blocks/footer/__copyright/Footer__copyright.css">
+
+    <link rel="stylesheet" href="common.blocks/Social-media.css">
+    <link rel="stylesheet" href="common.blocks/Social-media/__icon/Sociale-media__icon.css">
+    <link rel="stylesheet" href="common.blocks/Social-media/_size_s/Social-media__icon_size_s.css">
+    <link rel="stylesheet" href="common.blocks/Social-media/_color-theme/Social-media__icon_color-theme.css">
+
+    <script src="common.blocks/Hamburger-icon.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/b0311f9a70.js"crossorigin="anonymous">
+    </script>
+
+    <title>Side4</title>
+</head>
+<body>
+    <header class="Header">
+        <div class="Header__wrapper">
+          <h2 class="Header__heading">CPH Architects</h2>
+       
+          <button class="Hamburger-icon Hamburger-icon_size_m Header__hamburger-icon" onclick="toggleClass()">
+            <i class="fas fa-bars"></i>
+          </button>
+    
+          <nav class="Nav">
+            <ul class="Nav__ul" id="Nav__ul">
+              <li class="Nav__list"><a class="Nav__link" href="index.html">home</a></li>
+              <li class="Nav__list"><a class="Nav__link" href="side2.html">side 2</a></li>
+              <li class="Nav__list"><a class="Nav__link" href="Side3.html">side 3</a></li>
+              <li class="Nav__list"><a class="Nav__link" href="Side4.html">side 4</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="Content-wrapper">
+        <main>
+          <figure class="Gallery Content-wrapper__gallery">
+            <img class="Gallery__image" src="images/arne-jacobsen/Arne-Jacobsen-Suite-room-606.jpg" alt="Arne Jacobsen suite 606">
+            <img class="Gallery__image" src="images/arne-jacobsen/NB02.jpg" alt="National Banken">
+            <img class="Gallery__image" src="images/arne-jacobsen/sas.jpg" alt="Sas Radisson">
+            <img class="Gallery__image" src="images/christian-frederik-hansen/Christiansborg_Holm_1837.jpg" alt="Christianborg Holm">
+            <img class="Gallery__image" src="images/christian-frederik-hansen/Christiansborg_Slotskirke_Copenhagen.jpg" alt="Christianborg Slotskirke">
+            <img class="Gallery__image" src="images/christian-frederik-hansen/domhuset.jpg" alt="Domhuset">
+            <img class="Gallery__image" src="images/ferdinand-meldahl/Marble_Church_front.jpg" alt="Marmorkirken">
+            <img class="Gallery__image" src="images/ferdinand-meldahl/Provestenen2.jpg" alt="Prøverstenen">
+            <img class="Gallery__image" src="images/ferdinand-meldahl/Jardin_elevation.jpg" alt="Marmorkirken">
+            <img class="Gallery__image" src="images/martin-nyrop/gasvaerk.jpg" alt="Gasværk">
+            <img class="Gallery__image" src="images/martin-nyrop/LAS_Jagtvej.jpg" alt="LAS Jagtvej">
+            <img class="Gallery__image" src="images/martin-nyrop/rådhus.jpg" alt="Rådhus">
+          </figure>
+          
+          <div class="Video Content-wrapper__video">
+            <iframe class="Video__arne-jacobsen"
+              src="https://www.youtube.com/embed/GPBHED9YINg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+          </div>
+        </main>
+      </div>
+
+      <footer class="Footer">
+        <div class="Footer__wrapper">
+          <article class="Footer__article color">
+            <p>
+              CPH Architects<br />Piet Hein's Gade 42<br />DK-2820 Søborg<br />+45
+              12 34 56 78<br />hello@cpharchitect.dk
+            </p>
+          </article>
+    
+          <div class="Social-media">
+            <a class="Social-media__icon Social-media__icon_size_s Social-media__icon_color-theme" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+            <a class="Social-media__icon Social-media__icon_size_s Social-media__icon_color-theme" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+            <a class="Social-media__icon Social-media__icon_size_s Social-media__icon_color-theme" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+          </div>
+        </div>
+  
+        <p class="Footer__copyright color">Ophavsret © 2018, alle rettigheder forbeholdes</p>
+      </footer>
+    
+</body>
+</html>

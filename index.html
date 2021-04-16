@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="dk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="stylesheet/style.css" />
+
+    <link rel="stylesheet" href="common.blocks/Header.css">
+    <link rel="stylesheet" href="common.blocks/Header/__wrapper/Header__wrapper.css">
+    <link rel="stylesheet" href="common.blocks/Header/__heading/Header__heading.css">
+    <link rel="stylesheet" href="common.blocks/Header/__hamburger-icon/Header__hamburger-icon.css">
+    <link rel="stylesheet" href="common.blocks/Header/Header-media-query.css">
+
+    <link rel="stylesheet" href="common.blocks/Hamburger-icon.css">
+    <link rel="stylesheet" href="common.blocks/Hamburger-icon/_size_m/Hamburger-icon_size_m.css">
+    <link rel="stylesheet" href="common.blocks/Hamburger-icon/Hamburger-icon-media-query.css">
+
+    <link rel="stylesheet" href="common.blocks/Nav.css">
+    <link rel="stylesheet" href="common.blocks/Nav/__ul/Nav__ul.css">
+    <link rel="stylesheet" href="common.blocks/Nav/__list/Nav__list.css">
+    <link rel="stylesheet" href="common.blocks/Nav/__link/Nav__link.css">
+    <link rel="stylesheet" href="common.blocks/Nav/Nav-media-query.css">
+
+    <link rel="stylesheet" href="common.blocks/Content-wrapper/__article-dansk-arkitektur/Content-wrapper__article-dansk-arkitektur.css">
+    <link rel="stylesheet" href="common.blocks/Content-wrapper/__card-one-container/Content-wrapper__card-one-container.css">
+    <link rel="stylesheet" href="common.blocks/Content-wrapper/Content-wrapper-media-query.css">
+
+    <link rel="stylesheet" href="common.blocks/Card-one/Card-one-container.css">
+    <link rel="stylesheet" href="common.blocks/Card-one.css">
+    <link rel="stylesheet" href="common.blocks/Card-one/__image/Card-one__image.css">
+    <link rel="stylesheet" href="common.blocks/Card-one/__article/Card-one__article.css">
+    <link rel="stylesheet" href="common.blocks/Card-one/__heading/Card-one__heading.css">
+    <link rel="stylesheet" href="common.blocks/Card-one/__text/Card-one__text.css">
+    <link rel="stylesheet" href="common.blocks/Card-one/Card-one-media-query.css">
+
+    <link rel="stylesheet" href="common.blocks/footer/mix/color.css">
+    <link rel="stylesheet" href="common.blocks/Footer.css" />
+    <link rel="stylesheet" href="common.blocks/footer/__wrapper/Footer__wrapper.css">
+    <link rel="stylesheet" href="common.blocks/footer/Footer-media-query.css">
+    <link rel="stylesheet" href="common.blocks/footer/__copyright/Footer__copyright.css">
+
+    <link rel="stylesheet" href="common.blocks/Social-media.css">
+    <link rel="stylesheet" href="common.blocks/Social-media/__icon/Sociale-media__icon.css">
+    <link rel="stylesheet" href="common.blocks/Social-media/_size_s/Social-media__icon_size_s.css">
+    <link rel="stylesheet" href="common.blocks/Social-media/_color-theme/Social-media__icon_color-theme.css">
+
+
+    <script src="common.blocks/Hamburger-icon.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/b0311f9a70.js"crossorigin="anonymous">
+    </script>
+
+    <title>CPH Architects</title>
+  </head>
+  <body>
+    <header class="Header">
+      <div class="Header__wrapper">
+        <h2 class="Header__heading">CPH Architects</h2>
+     
+        <button class="Hamburger-icon Hamburger-icon_size_m Header__hamburger-icon" onclick="toggleClass()">
+          <i class="fas fa-bars"></i>
+        </button>
+  
+        <nav class="Nav">
+          <ul class="Nav__ul" id="Nav__ul">
+            <li class="Nav__list"><a class="Nav__link" href="index.html">home</a></li>
+            <li class="Nav__list"><a class="Nav__link" href="side2.html">side 2</a></li>
+            <li class="Nav__list"><a class="Nav__link" href="Side3.html">side 3</a></li>
+            <li class="Nav__list"><a class="Nav__link" href="Side4.html">side 4</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <div class="Content-wrapper">
+      <main>
+        <article class="Content-wrapper__article-dansk-arkitektur">
+          <h1>Dansk arkitektur</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus minima eveniet explicabo sint delectus vitae, sapiente alias officiis rem, error soluta, a facilis saepe corporis asperiores eos! Quas, dolorum itaque?
+          Dignissimos, eveniet a doloremque cum fugit minus! Veniam impedit est vitae quisquam labore suscipit fugit corporis voluptates? Natus deserunt quaerat sequi consectetur illo corrupti, libero, reiciendis excepturi amet doloremque aut.</p>
+        </article>
+      </main>
+  
+      <aside>
+        <div class="Card-one-container Content-wrapper__card-one-container">
+          <div class="Card-one">
+            <img class="Card-one__image" src="images/arne-jacobsen/Arne_Jacobsen_photo.jpg" alt="Arne Jacobsen foto">
+    
+            <article class="Card-one__article">
+              <h2 class="Card-one__heading">Arne Jacobsen</h2>
+              <p class="Card-one__text">Arne Emil Jacobsen (født 11. februar 1902 i København, død 24. marts 1971 i København) var en dansk arkitekt og formgiver, som var med til at indføre modernismen i Danmark. Han har internationalt ry og er en af Danmarks mest kendte designere.<br>Arne Jacobsen flygtede i 1943 til Sverige sammen med tusindvis af andre danske jøder og blev der til krigens afslutning.
+                Han er i dag internationalt kendt og anerkendt især for sine stole: Syveren, Myren, Svanen og Ægget.
+                Arne Jacobsen blev uddannet på Kunstakademiet i København, hvor han 1956-1965 underviste som professor i bygningskunst inspireret af Le Corbusier.</p>
+            </article>
+          </div> 
+          
+          <div class="Card-one">
+            <img class="Card-one__image" src="images/christian-frederik-hansen/cfhansen.jpg" alt="Christian Frederik Hansen foto">
+    
+            <article class="Card-one__article">
+              <h2 class="Card-one__heading">C. F. Hansen</h2>
+              <p class="Card-one__text">Christian Frederik Hansen (født 29. februar 1756 i København, død 10. juli 1845 på Rolighed på Frederiksberg) var en dansk, klassicistiskarkitekt, kgl. hofbygmester, professor og direktør for Kunstakademiet. Han regnes for en af de væsentligste arkitekter i danmarkshistorien og C.F. Hansen var en meget fremtrædende og indflydelsesrig arkitekt i København i begyndelsen af 1800-tallet.<br>Byen var udsat for flere katastrofer: Christiansborgs brand i 1794, Københavns brand i 1795 samt Københavns bombardement i 1807. Store dele af København skulle genopbygges i disse år, og C.F. Hansen satte sit præg ved at stå bag markante bygninger som Vor Frue Kirke, det andet (senere nedbrændte) Christiansborghvoraf Slotskirken er bevaret, Metropolitanskolen og Domhuset, som oprindelig var tegnet til også at være rådhus, men som nu udfyldes af Københavns Byret.</p>
+            </article>
+          </div> 
+          
+          <div class="Card-one">
+            <img class="Card-one__image" src="images/ferdinand-meldahl/Ferdinand_Meldahl_1827-1908.jpg" alt="Ferdinand Meldahl foto">
+    
+            <article class="Card-one__article">
+              <h2 class="Card-one__heading">Ferdinand Meldahl</h2>
+              <p class="Card-one__text">Ferdinand Meldahl (16. marts 1827 på Frederiksberg – 3. februar 1908 i København) var en dansk arkitekt, etatsråd, kammerherre og borgerrepræsentant. Han udøvede meget stor indflydelse på arkitektur og kunst i anden halvdel af 1800-tallet. Meldahl var på den ene side kosmopolitisk orienteret, visionær og produktiv og på den anden side en konservativ natur, hvis idealer blev forkastet af den efterfølgende kunstner- og arkitektgeneration.<br>Fra 1860 fungerede han som kgl. bygningsinspektør, og fra 1866 og 27 år frem sad han i Københavns Borgerrepræsentation. Desuden havde han utallige hverv som rådgiver, dommer og kommissionsmedlem. Meldahl var en magtfuld og omdiskuteret person, der på mange måder indtog en parallel position til overbygningsdirektør og akademidirektør C.F. Hansen et halvt århundrede tidligere. For de unge nationalromantiske arkitekter i kredsen omkring Martin Nyrop, P.V. Jensen Klint og Ulrik Plesnerblev han opfattet som bagstræberisk figur, der modarbejdede en personlig kreativitet i arkitektarbejdet med sin akademiske insisteren på at kopiere fortidens stilarter og på den korrekte gengivelse af fortidige stilmotiver.</p>
+            </article>
+          </div> 
+          
+          <div class="Card-one">
+            <img class="Card-one__image" src="images/martin-nyrop/Martin_Nyrop_580.jpg" alt="Martin Nyrop foto">
+    
+            <article class="Card-one__article">
+              <h2 class="Card-one__heading">Martin Nyrop</h2>
+              <p class="Card-one__text">Martin Nyrop (11. november 1849 på Holmsland ved Ringkøbing Fjord – 18. maj 1921 i København) var en dansk arkitekt, professor ved og direktør for Kunstakademiet. Han var den væsentligste eksponent for nationalromantikken i dansk arkitektur omkring år 1900. Samtidig øvede han stor indflydelse på den efterfølgende generation af danske arkitekter. Hans hovedværk er Københavns Rådhus, der også er internationalt berømmet.<br>Nyrop var søn af sognepræst Christopher Nyrop (1805–79) og Helene f. Ahlmann (1807–74). Han blev født på Holmsland ved Ringkøbing Fjord. Da hans forfædre i fem slægtled havde været præster i Danmark og Norge, blev Nyrop selvfølgelig sat til at studere og tilbragte årene 1859–1865 på Sorø Akademi, men forlod det uden at tage eksamen. Herefter gik han i tømrerlære og blev svend i 1869.</p>
+            </article>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <footer class="Footer">
+      <div class="Footer__wrapper">
+        <article class="Footer__article color">
+          <p>
+            CPH Architects<br />Piet Hein's Gade 42<br />DK-2820 Søborg<br />+45
+            12 34 56 78<br />hello@cpharchitect.dk
+          </p>
+        </article>
+  
+        <div class="Social-media">
+          <a class="Social-media__icon Social-media__icon_size_s Social-media__icon_color-theme" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+          <a class="Social-media__icon Social-media__icon_size_s Social-media__icon_color-theme" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+          <a class="Social-media__icon Social-media__icon_size_s Social-media__icon_color-theme" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+      </div>
+
+      <p class="Footer__copyright color">Ophavsret © 2018, alle rettigheder forbeholdes</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    margin: 0 auto;
+    background-color: white;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        width: 1024px;
+    }
+
+    html {
+        background-color: sandybrown;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+/* ===== color theme ===== */
+
+:root {
+    --text-color-1: #fefefe;
+}
+
+:root {
+    --text-color-2: #000000;
+}
+
+:root {
+    --navigation-color: #92b8b7;
+}
+
+:root {
+    --theme-color: #bcdfde;
+}
+
+:root {
+    --footer-color: #707070;
+}

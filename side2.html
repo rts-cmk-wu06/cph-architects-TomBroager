@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="dk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="stylesheet/style.css" />
+
+    <link rel="stylesheet" href="common.blocks/Header.css">
+    <link rel="stylesheet" href="common.blocks/Header/__wrapper/Header__wrapper.css">
+    <link rel="stylesheet" href="common.blocks/Header/__heading/Header__heading.css">
+    <link rel="stylesheet" href="common.blocks/Header/__hamburger-icon/Header__hamburger-icon.css">
+    <link rel="stylesheet" href="common.blocks/Header/Header-media-query.css">
+
+    <link rel="stylesheet" href="common.blocks/Hamburger-icon.css">
+    <link rel="stylesheet" href="common.blocks/Hamburger-icon/_size_m/Hamburger-icon_size_m.css">
+    <link rel="stylesheet" href="common.blocks/Hamburger-icon/Hamburger-icon-media-query.css">
+
+    <link rel="stylesheet" href="common.blocks/Nav.css">
+    <link rel="stylesheet" href="common.blocks/Nav/__ul/Nav__ul.css">
+    <link rel="stylesheet" href="common.blocks/Nav/__list/Nav__list.css">
+    <link rel="stylesheet" href="common.blocks/Nav/__link/Nav__link.css">
+    <link rel="stylesheet" href="common.blocks/Nav/Nav-media-query.css">
+
+    <link rel="stylesheet" href="common.blocks/Content-wrapper/__article-kap/Content-wrapper__article-kap.css">
+    <link rel="stylesheet" href="common.blocks/Content-wrapper/__card-two-container/Content-wrapper__card-two-container.css">
+    <link rel="stylesheet" href="common.blocks/Content-wrapper/Content-wrapper-media-query.css">
+
+    <link rel="stylesheet" href="common.blocks/Hero.css">
+    <link rel="stylesheet" href="common.blocks/Hero/__image/Hero__image.css">
+    <link rel="stylesheet" href="common.blocks/Hero/Hero-media-qyery.css">
+
+    <link rel="stylesheet" href="common.blocks/Card-two/Card-two-container.css">
+    <link rel="stylesheet" href="common.blocks/Card-two.css">
+    <link rel="stylesheet" href="common.blocks/Card-two/__image/Card-two__image.css">
+    <link rel="stylesheet" href="common.blocks/Card-two/__text/Card-two__text.css">
+    <link rel="stylesheet" href="common.blocks/Card-two/Card-two-media-query.css">
+
+    <link rel="stylesheet" href="common.blocks/footer/mix/color.css">
+    <link rel="stylesheet" href="common.blocks/Footer.css" />
+    <link rel="stylesheet" href="common.blocks/footer/__wrapper/Footer__wrapper.css">
+    <link rel="stylesheet" href="common.blocks/footer/Footer-media-query.css">
+    <link rel="stylesheet" href="common.blocks/footer/__copyright/Footer__copyright.css">
+
+    <link rel="stylesheet" href="common.blocks/Social-media.css">
+    <link rel="stylesheet" href="common.blocks/Social-media/__icon/Sociale-media__icon.css">
+    <link rel="stylesheet" href="common.blocks/Social-media/_size_s/Social-media__icon_size_s.css">
+    <link rel="stylesheet" href="common.blocks/Social-media/_color-theme/Social-media__icon_color-theme.css">
+
+    <script src="common.blocks/Hamburger-icon.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/b0311f9a70.js"crossorigin="anonymous">
+    </script>
+
+    <title>Side2</title>
+</head>
+<body>
+    <header class="Header">
+        <div class="Header__wrapper">
+          <h2 class="Header__heading">CPH Architects</h2>
+       
+          <button class="Hamburger-icon Hamburger-icon_size_m Header__hamburger-icon" onclick="toggleClass()">
+            <i class="fas fa-bars"></i>
+          </button>
+    
+          <nav class="Nav">
+            <ul class="Nav__ul" id="Nav__ul">
+              <li class="Nav__list"><a class="Nav__link" href="index.html">home</a></li>
+              <li class="Nav__list"><a class="Nav__link" href="side2.html">side 2</a></li>
+              <li class="Nav__list"><a class="Nav__link" href="Side3.html">side 3</a></li>
+              <li class="Nav__list"><a class="Nav__link" href="Side4.html">side 4</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="Content-wrapper">
+        <main>
+          <figure class="Hero">
+              <img class="Hero__image" src="images/arne-jacobsen/livreddertaarn.jpg" alt="Livredder tårn">
+          </figure>
+  
+          <article class="Content-wrapper__article-kap">
+            <h1>Københavns arkitektoniske perler</h1>
+    
+            <p>I København står gamle, historiske bygninger og moderne arkitektur side om side, og såvel lokale som internationale arkitekter har sat deres præg på hovedstaden. Også dansk design er verdenskendt for dets rene, simple linjer, slidstærke materialer og klassiske kreationer, der aldrig går af mode.
+              Her er vores guide til nogle af Københavns arkitektoniske og designperler.
+            </p>
+          </article>
+          
+          <div class="Card-two-container Content-wrapper__card-two-container">
+            <div class="Card-two">
+              <img class="Card-two__image" src="images/arne-jacobsen/sas2.jpg" alt="SAS Radisson Hotel">
+      
+              <article class="Card-two__article">
+                <p class="Card-two__text">SAS Radisson Hotellet tegnet af Arne Jacobsen. Det blev indviet i 1960 og var den første skyskraber i Kbh.</p>
+              </article>
+            </div>
+      
+            <div class="Card-two Card-two-reverse">
+              <img class="Card-two__image" src="images/ferdinand-meldahl/Marble_Church_front.jpg" alt="Marmor kirken">
+      
+              <article class="Card-two__article">
+                <p class="Card-two__text">Marmorkirken - også kaldet Frederiskirken blev indviet i 1894. Men grundsteen blev lagt i 1749.</p>
+              </article>
+            </div>
+      
+            <div class="Card-two Card-two_size_xl">
+              <img class="Card-two__image Card-two__image_size_xl" src="images/martin-nyrop/CopenhagenCityHallFront.jpg" alt="Københavns rådhus">
+      
+              <article class="article-wrapper">
+                <p class="Card-two__text">Københanvs Rådhus tegnet af Martin Nyrop, som var inspireret af rådhuset i Siena i Italien.</p>
+              </article>
+            </div>
+          </div>  
+        </main>
+      </div>
+
+      <footer class="Footer">
+        <div class="Footer__wrapper">
+          <article class="Footer__article color">
+            <p>
+              CPH Architects<br />Piet Hein's Gade 42<br />DK-2820 Søborg<br />+45
+              12 34 56 78<br />hello@cpharchitect.dk
+            </p>
+          </article>
+    
+          <div class="Social-media">
+            <a class="Social-media__icon Social-media__icon_size_s Social-media__icon_color-theme" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+            <a class="Social-media__icon Social-media__icon_size_s Social-media__icon_color-theme" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+            <a class="Social-media__icon Social-media__icon_size_s Social-media__icon_color-theme" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+          </div>
+        </div>
+  
+        <p class="Footer__copyright color">Ophavsret © 2018, alle rettigheder forbeholdes</p>
+      </footer>
+</body>
+</html>
